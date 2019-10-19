@@ -13,7 +13,6 @@ namespace Week07
             Person p = new Professor();
             p.SayHi();
             Console.ReadKey();
-
         }
     }
 }
@@ -33,7 +32,7 @@ class Student : Person
     }
 }
 
-class Teacher : Person
+class Professor : Person
 {
     public new void SayHi()
     {
