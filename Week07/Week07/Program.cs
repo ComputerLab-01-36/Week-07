@@ -13,7 +13,7 @@ namespace Week07
             Student su = new Student("Student Name", "12345678");
             try
             {
-                // su.Name = "My name";
+                
                 su.GPA = 3.5f;
                 Console.WriteLine("Student name : " + su.Name);
                 Console.WriteLine("Student ID   : " + su.ID);
@@ -55,7 +55,7 @@ class Student
         }
         set
         {
-            if (value > 0.0 && value <= 4.0)
+            if (value > 0.0 && value <= 5.0)
                 gpa = value;
             else
                 throw (new Exception("Error!!!! invalid GPA"));
